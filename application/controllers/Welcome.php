@@ -20,7 +20,7 @@ class Welcome extends CI_Controller {
         $md5_hash = md5($string);
 
         // Data yang akan dikirim dalam body POST request
-        $username = "tesprogrammer150125C16";
+        $username = "tesprogrammer150125C21";
         $password = $md5_hash; // Gunakan MD5 hash yang telah ditemukan
 
         // URL API
